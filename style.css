@@ -2,15 +2,18 @@ body {
   background-color: #1A1A1A !important;
   color: #fff !important;
   font-family: 'Rubik', sans-serif !important;
+  overflow-x: hidden !important;
 }
 
 header {
   padding: 2rem 5rem;
+  overflow-x: hidden !important;
 }
 
 section,
 footer {
   padding: 8rem 5rem;
+  overflow-x: hidden !important;
 }
 
 
