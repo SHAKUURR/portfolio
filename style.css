@@ -8,6 +8,7 @@ body {
 header {
   padding: 2rem 5rem;
   overflow-x: hidden !important;
+  overflow-y: visible !important;
 }
 
 section,
@@ -136,4 +137,8 @@ section .project-btn {
   }
 }
 
-/* @media only screen and (max-width:47.9375em {} */
+@media only screen and (max-width:61.9375em) {
+  header {
+    overflow: hidden !important;
+  }
+}
